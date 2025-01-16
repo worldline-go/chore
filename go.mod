@@ -1,4 +1,4 @@
-module github.com/rakunlabs/chore
+module github.com/worldline-go/chore
 
 go 1.22
 

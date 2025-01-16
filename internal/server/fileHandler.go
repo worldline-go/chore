@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/rakunlabs/chore/internal/config"
 	"github.com/rs/zerolog/log"
+	"github.com/worldline-go/chore/internal/config"
 )
 
 //go:embed dist/*

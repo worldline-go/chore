@@ -8,9 +8,9 @@ import (
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
 
-	"github.com/rakunlabs/chore/internal/config"
-	"github.com/rakunlabs/chore/pkg/models"
-	"github.com/rakunlabs/chore/pkg/sec"
+	"github.com/worldline-go/chore/internal/config"
+	"github.com/worldline-go/chore/pkg/models"
+	"github.com/worldline-go/chore/pkg/sec"
 )
 
 func AutoMigrate(ctx context.Context, dbConn *gorm.DB) error {

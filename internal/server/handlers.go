@@ -21,13 +21,13 @@ import (
 	"gorm.io/gorm"
 
 	jwtgo "github.com/golang-jwt/jwt/v5"
-	"github.com/rakunlabs/chore/internal/api"
-	"github.com/rakunlabs/chore/internal/api/run"
-	"github.com/rakunlabs/chore/internal/config"
-	"github.com/rakunlabs/chore/internal/server/claims"
-	"github.com/rakunlabs/chore/internal/server/middlewares"
-	"github.com/rakunlabs/chore/pkg/registry"
-	"github.com/rakunlabs/chore/pkg/request"
+	"github.com/worldline-go/chore/internal/api"
+	"github.com/worldline-go/chore/internal/api/run"
+	"github.com/worldline-go/chore/internal/config"
+	"github.com/worldline-go/chore/internal/server/claims"
+	"github.com/worldline-go/chore/internal/server/middlewares"
+	"github.com/worldline-go/chore/pkg/registry"
+	"github.com/worldline-go/chore/pkg/request"
 )
 
 // @description Storage and Send API

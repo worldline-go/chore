@@ -6,8 +6,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/rakunlabs/chore/internal/config"
-	"github.com/rakunlabs/chore/pkg/registry"
+	"github.com/worldline-go/chore/internal/config"
+	"github.com/worldline-go/chore/pkg/registry"
 )
 
 type information struct {

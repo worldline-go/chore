@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rakunlabs/chore/pkg/registry"
 	"github.com/rs/zerolog/log"
+	"github.com/worldline-go/chore/pkg/registry"
 )
 
 func StartFlow(

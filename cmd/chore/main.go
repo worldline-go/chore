@@ -7,7 +7,7 @@ import (
 	"github.com/worldline-go/initializer"
 	"github.com/worldline-go/logz"
 
-	"github.com/rakunlabs/chore/cmd/chore/args"
+	"github.com/worldline-go/chore/cmd/chore/args"
 )
 
 func main() {

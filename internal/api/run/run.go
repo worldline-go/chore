@@ -8,10 +8,10 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/rs/zerolog/log"
 
-	"github.com/rakunlabs/chore/internal/server/middlewares"
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
-	"github.com/rakunlabs/chore/pkg/registry"
-	"github.com/rakunlabs/chore/pkg/script/js"
+	"github.com/worldline-go/chore/internal/server/middlewares"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
+	"github.com/worldline-go/chore/pkg/registry"
+	"github.com/worldline-go/chore/pkg/script/js"
 )
 
 // @Summary Run JS script

@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/rakunlabs/chore/internal/server/claims"
-	"github.com/rakunlabs/chore/pkg/models"
-	"github.com/rakunlabs/chore/pkg/registry"
+	"github.com/worldline-go/chore/internal/server/claims"
+	"github.com/worldline-go/chore/pkg/models"
+	"github.com/worldline-go/chore/pkg/registry"
 	"gorm.io/gorm"
 )
 

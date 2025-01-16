@@ -22,7 +22,7 @@ services:
     #   - "5432:5432"
 
   chore:
-    image: ghcr.io/rakunlabs/chore:latest
+    image: ghcr.io/worldline-go/chore:latest
     environment:
       LOGLEVEL: info
       SECRET: thisissupersecretjustforthisapp

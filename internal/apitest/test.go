@@ -9,10 +9,10 @@ import (
 	"github.com/rs/zerolog/log"
 	"gorm.io/gorm"
 
-	"github.com/rakunlabs/chore/internal/utils"
-	"github.com/rakunlabs/chore/pkg/models"
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
-	"github.com/rakunlabs/chore/pkg/registry"
+	"github.com/worldline-go/chore/internal/utils"
+	"github.com/worldline-go/chore/pkg/models"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
+	"github.com/worldline-go/chore/pkg/registry"
 )
 
 // @Summary New Test

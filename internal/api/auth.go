@@ -10,12 +10,12 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"github.com/rakunlabs/chore/internal/parser"
-	"github.com/rakunlabs/chore/internal/server/middlewares"
-	"github.com/rakunlabs/chore/internal/utils"
-	"github.com/rakunlabs/chore/pkg/models"
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
-	"github.com/rakunlabs/chore/pkg/registry"
+	"github.com/worldline-go/chore/internal/parser"
+	"github.com/worldline-go/chore/internal/server/middlewares"
+	"github.com/worldline-go/chore/internal/utils"
+	"github.com/worldline-go/chore/pkg/models"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
+	"github.com/worldline-go/chore/pkg/registry"
 )
 
 type AuthPureID struct {

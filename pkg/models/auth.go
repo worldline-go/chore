@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
 
 	"gorm.io/datatypes"
 )

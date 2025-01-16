@@ -13,12 +13,12 @@ import (
 	"github.com/rytsh/mugo/pkg/templatex"
 	"gorm.io/gorm"
 
-	"github.com/rakunlabs/chore/pkg/email"
-	"github.com/rakunlabs/chore/pkg/flow"
-	"github.com/rakunlabs/chore/pkg/flow/convert"
-	"github.com/rakunlabs/chore/pkg/models"
-	"github.com/rakunlabs/chore/pkg/registry"
-	"github.com/rakunlabs/chore/pkg/transfer"
+	"github.com/worldline-go/chore/pkg/email"
+	"github.com/worldline-go/chore/pkg/flow"
+	"github.com/worldline-go/chore/pkg/flow/convert"
+	"github.com/worldline-go/chore/pkg/models"
+	"github.com/worldline-go/chore/pkg/registry"
+	"github.com/worldline-go/chore/pkg/transfer"
 )
 
 var emailType = "email"

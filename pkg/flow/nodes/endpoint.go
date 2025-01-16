@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rakunlabs/chore/pkg/flow"
-	"github.com/rakunlabs/chore/pkg/flow/convert"
-	"github.com/rakunlabs/chore/pkg/registry"
+	"github.com/worldline-go/chore/pkg/flow"
+	"github.com/worldline-go/chore/pkg/flow/convert"
+	"github.com/worldline-go/chore/pkg/registry"
 
 	"gorm.io/gorm"
 )

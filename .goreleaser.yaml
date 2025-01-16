@@ -4,7 +4,7 @@ project_name: chore
 
 release:
   footer: |
-    **Full Changelog**: https://github.com/rakunlabs/chore/compare/{{ .PreviousTag }}...{{ .Tag }}
+    **Full Changelog**: https://github.com/worldline-go/chore/compare/{{ .PreviousTag }}...{{ .Tag }}
 
 before:
   hooks:
@@ -71,11 +71,11 @@ changelog:
 
 dockers:
 - image_templates:
-  - 'ghcr.io/rakunlabs/chore:{{ .Tag }}'
+  - 'ghcr.io/worldline-go/chore:{{ .Tag }}'
   dockerfile: ci/Dockerfile
   build_flag_templates:
   - "--pull"
-  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/rakunlabs/chore/main/README.md"
+  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/worldline-go/chore/main/README.md"
   - "--label=io.artifacthub.package.maintainers=[{\"name\":\"Eray Ates\",\"email\":\"eates23@gmail.com\"}]"
   - "--label=io.artifacthub.package.license=Apache-2.0"
   - "--label=org.opencontainers.image.description=Control flow API"
@@ -86,12 +86,12 @@ dockers:
   - "--label=org.opencontainers.image.source={{.GitURL}}"
   - "--platform=linux/amd64"
 - image_templates:
-  - 'ghcr.io/rakunlabs/chore:{{ .Tag }}-alpine3.20.2'
-  - 'ghcr.io/rakunlabs/chore:latest'
+  - 'ghcr.io/worldline-go/chore:{{ .Tag }}-alpine3.20.2'
+  - 'ghcr.io/worldline-go/chore:latest'
   dockerfile: ci/alpine.Dockerfile
   build_flag_templates:
   - "--pull"
-  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/rakunlabs/chore/main/README.md"
+  - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/worldline-go/chore/main/README.md"
   - "--label=io.artifacthub.package.maintainers=[{\"name\":\"Eray Ates\",\"email\":\"eates23@gmail.com\"}]"
   - "--label=io.artifacthub.package.license=Apache-2.0"
   - "--label=org.opencontainers.image.description=Control flow API"

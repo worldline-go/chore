@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/rakunlabs/chore/pkg/transfer"
 	"github.com/rs/zerolog/log"
+	"github.com/worldline-go/chore/pkg/transfer"
 )
 
 var ErrThrow = errors.New("throw")

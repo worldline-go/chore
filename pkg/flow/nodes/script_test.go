@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
-	"github.com/rakunlabs/chore/pkg/flow"
+	"github.com/worldline-go/chore/pkg/flow"
 )
 
 func TestScript_Run(t *testing.T) {

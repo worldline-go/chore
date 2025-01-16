@@ -12,7 +12,7 @@ If you need any feature, find a bug or fixing something send pull request or ope
 
 ```sh
 docker run -d --name postgres -p 5432:5432 -e POSTGRES_HOST_AUTH_METHOD=trust postgres:14.5-alpine
-docker run -it --rm --name chore -p 8080:8080 -e STORE_HOST=172.17.0.1 -e STORE_SCHEMA=public ghcr.io/rakunlabs/chore:latest
+docker run -it --rm --name chore -p 8080:8080 -e STORE_HOST=172.17.0.1 -e STORE_SCHEMA=public ghcr.io/worldline-go/chore:latest
 ```
 
 Open browser and go to http://localhost:8080
@@ -204,13 +204,13 @@ Change `-h` (help) parameter to any arguments of the shell script.
 
 ```sh
 export TOKEN=""
-curl -fksSL https://raw.githubusercontent.com/rakunlabs/chore/main/data/record.sh | bash -s -- -h
+curl -fksSL https://raw.githubusercontent.com/worldline-go/chore/main/data/record.sh | bash -s -- -h
 ```
 
 Or first download it and after run.
 
 ```sh
-curl -O -fksSL https://raw.githubusercontent.com/rakunlabs/chore/main/data/record.sh && chmod +x record.sh
+curl -O -fksSL https://raw.githubusercontent.com/worldline-go/chore/main/data/record.sh && chmod +x record.sh
 ```
 
 Example arguments

@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
 )
 
 var (

@@ -7,9 +7,9 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/rakunlabs/chore/internal/server/claims"
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
 	"github.com/worldline-go/auth/pkg/authecho"
+	"github.com/worldline-go/chore/internal/server/claims"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
 )
 
 var (

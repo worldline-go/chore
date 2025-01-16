@@ -13,15 +13,15 @@ import (
 	"github.com/rs/zerolog/log"
 	"gorm.io/gorm"
 
-	"github.com/rakunlabs/chore/internal/server/claims"
-	"github.com/rakunlabs/chore/internal/server/middlewares"
-	"github.com/rakunlabs/chore/internal/utils"
-	"github.com/rakunlabs/chore/pkg/models"
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
-	"github.com/rakunlabs/chore/pkg/registry"
 	"github.com/worldline-go/auth"
 	"github.com/worldline-go/auth/pkg/authecho"
 	"github.com/worldline-go/auth/request"
+	"github.com/worldline-go/chore/internal/server/claims"
+	"github.com/worldline-go/chore/internal/server/middlewares"
+	"github.com/worldline-go/chore/internal/utils"
+	"github.com/worldline-go/chore/pkg/models"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
+	"github.com/worldline-go/chore/pkg/registry"
 )
 
 type TokenDataByID struct {

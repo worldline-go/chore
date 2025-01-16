@@ -6,14 +6,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rakunlabs/chore/internal/config"
-	"github.com/rakunlabs/chore/internal/server"
-	"github.com/rakunlabs/chore/internal/store"
+	"github.com/worldline-go/chore/internal/config"
+	"github.com/worldline-go/chore/internal/server"
+	"github.com/worldline-go/chore/internal/store"
 	"github.com/worldline-go/initializer"
 	"github.com/worldline-go/tell"
 
 	// Add flow nodes to register in control flow algorithm.
-	_ "github.com/rakunlabs/chore/pkg/flow/nodes"
+	_ "github.com/worldline-go/chore/pkg/flow/nodes"
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

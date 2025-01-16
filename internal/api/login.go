@@ -11,13 +11,13 @@ import (
 	"github.com/worldline-go/auth/request"
 	"gorm.io/gorm"
 
-	"github.com/rakunlabs/chore/internal/parser"
-	"github.com/rakunlabs/chore/internal/server/claims"
-	"github.com/rakunlabs/chore/internal/server/middlewares"
-	"github.com/rakunlabs/chore/pkg/models"
-	"github.com/rakunlabs/chore/pkg/models/apimodels"
-	"github.com/rakunlabs/chore/pkg/registry"
-	"github.com/rakunlabs/chore/pkg/sec"
+	"github.com/worldline-go/chore/internal/parser"
+	"github.com/worldline-go/chore/internal/server/claims"
+	"github.com/worldline-go/chore/internal/server/middlewares"
+	"github.com/worldline-go/chore/pkg/models"
+	"github.com/worldline-go/chore/pkg/models/apimodels"
+	"github.com/worldline-go/chore/pkg/registry"
+	"github.com/worldline-go/chore/pkg/sec"
 )
 
 type LoginModel struct {
